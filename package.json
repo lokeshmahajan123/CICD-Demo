@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "cd my-react-app && npm start",
+    "test:unit": "cd my-react-app && jest --ci --runInBand",
+    "test:e2e": "cypress run",
+    "test": "npm run test:unit && npm run test:e2e"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "babel-jest": "^30.2.0",
+    "cypress": "^15.3.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^30.2.0",
+    "start-server-and-test": "^2.1.2"
+  }
+}
