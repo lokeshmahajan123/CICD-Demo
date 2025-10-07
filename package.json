@@ -3,7 +3,11 @@
     "start": "cd my-react-app && npm start",
     "test:unit": "cd my-react-app && jest --ci --runInBand",
     "test:e2e": "cypress run",
-    "test": "npm run test:unit && npm run test:e2e"
+    "test": "npm run test:unit && npm run test:e2e",
+    "test": "jest && cypress run",
+    "start": "react-scripts start",
+  "test": "jest && cypress run",
+  "cypress:open": "cypress open"
   },
   "devDependencies": {
     "@babel/core": "^7.28.4",
